@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fsm_test", "fsm_test\fsm_test.vcproj", "{374CAA61-68D3-42DD-BB94-FD5194831D49}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "file_processor", "file_processor\file_processor.vcproj", "{5ED15077-AB5A-4CA1-B919-BF7016F04231}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calc_d", "calc\calc_d.vcproj", "{CE9FCD40-F171-432E-8E88-B64CD6F8FFED}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pelican_static", "pelican_static\pelican_static.vcproj", "{431277D5-C1A8-43D5-A049-7A82E6111556}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pelican_dynamic", "pelican_dynamic\pelican_dynamic.vcproj", "{431277D5-C1A8-43D5-A049-7A82E6111556}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{374CAA61-68D3-42DD-BB94-FD5194831D49}.Debug.ActiveCfg = Debug|Win32
+		{374CAA61-68D3-42DD-BB94-FD5194831D49}.Debug.Build.0 = Debug|Win32
+		{374CAA61-68D3-42DD-BB94-FD5194831D49}.Release.ActiveCfg = Release|Win32
+		{374CAA61-68D3-42DD-BB94-FD5194831D49}.Release.Build.0 = Release|Win32
+		{5ED15077-AB5A-4CA1-B919-BF7016F04231}.Debug.ActiveCfg = Debug|Win32
+		{5ED15077-AB5A-4CA1-B919-BF7016F04231}.Debug.Build.0 = Debug|Win32
+		{5ED15077-AB5A-4CA1-B919-BF7016F04231}.Release.ActiveCfg = Release|Win32
+		{5ED15077-AB5A-4CA1-B919-BF7016F04231}.Release.Build.0 = Release|Win32
+		{CE9FCD40-F171-432E-8E88-B64CD6F8FFED}.Debug.ActiveCfg = Debug|Win32
+		{CE9FCD40-F171-432E-8E88-B64CD6F8FFED}.Debug.Build.0 = Debug|Win32
+		{CE9FCD40-F171-432E-8E88-B64CD6F8FFED}.Release.ActiveCfg = Release|Win32
+		{CE9FCD40-F171-432E-8E88-B64CD6F8FFED}.Release.Build.0 = Release|Win32
+		{431277D5-C1A8-43D5-A049-7A82E6111556}.Debug.ActiveCfg = Debug|Win32
+		{431277D5-C1A8-43D5-A049-7A82E6111556}.Debug.Build.0 = Debug|Win32
+		{431277D5-C1A8-43D5-A049-7A82E6111556}.Release.ActiveCfg = Release|Win32
+		{431277D5-C1A8-43D5-A049-7A82E6111556}.Release.Build.0 = Release|Win32
+		{431277D5-C1A8-43D5-A049-7A82E6111556}.Debug.ActiveCfg = Debug|Win32
+		{431277D5-C1A8-43D5-A049-7A82E6111556}.Debug.Build.0 = Debug|Win32
+		{431277D5-C1A8-43D5-A049-7A82E6111556}.Release.ActiveCfg = Release|Win32
+		{431277D5-C1A8-43D5-A049-7A82E6111556}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
