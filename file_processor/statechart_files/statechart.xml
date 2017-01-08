@@ -1,0 +1,82 @@
+<VisioDocument xmlns="urn:schemas-microsoft-com:office:visio">
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Page-1" NameU="Page-1">
+			<Shapes>
+				<Shape ID="1" UniqueID="{1FF71864-C26C-4188-8BD1-5E1F2DCC7D0D}" Name="State" NameU="State" Master="0">
+					<Text>defaultState</Text>
+					<XForm>
+						<PinX Unit="IN_F">0.750000000000000</PinX>
+						<PinY Unit="IN_F">9.000000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{93D74D68-984F-4B82-BCA9-C4FC28042433}" Name="State.5" NameU="State.5" Master="0">
+					<Text>sawSpace</Text>
+					<XForm>
+						<PinX Unit="IN_F">2.250000000000000</PinX>
+						<PinY Unit="IN_F">8.000000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{54462EBE-9DF0-4476-BD24-D8EEA3954991}" Name="State.9" NameU="State.9" Master="0">
+					<Text>sawNewLine</Text>
+					<XForm>
+						<PinX Unit="IN_F">2.375000000000000</PinX>
+						<PinY Unit="IN_F">5.656250000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{E936CE88-2E38-41A9-B522-7FED05BE95FE}" Name="Initial transition" NameU="Initial transition" Master="2">
+					<Text>initial</Text>
+					<XForm>
+						<PinX Unit="IN_F">1.750000000000000</PinX>
+						<PinY Unit="IN_F">9.312500000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="15" UniqueID="{6475E17B-571C-496F-983F-15D2E5AD9495}" Name="Transition2" NameU="Transition2" Master="4">
+					<Text>on_newline[print char]</Text>
+					<XForm>
+						<PinX Unit="IN_F">1.625000000000000</PinX>
+						<PinY Unit="IN_F">5.945312500000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="16" UniqueID="{EE6DD6C0-FFEB-4A33-99B0-82F18EC87E47}" Name="Transition2.16" NameU="Transition2.16" Master="4">
+					<Text>on_space[print char]</Text>
+					<XForm>
+						<PinX Unit="IN_F">1.562500000000000</PinX>
+						<PinY Unit="IN_F">7.718750000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{EA779D12-894D-4DC6-A4CD-140AA74F186C}" Name="Initial transition.17" NameU="Initial transition.17" Master="2">
+					<Text>on_normal[print char]</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.000000000000000</PinX>
+						<PinY Unit="IN_F">9.000000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{FD58C6E2-3EC5-44D5-A547-F8E869674C28}" Name="Initial transition.14" NameU="Initial transition.14" Master="2">
+					<Text>on_space</Text>
+					<XForm>
+						<PinX Unit="IN_F">3.625000000000000</PinX>
+						<PinY Unit="IN_F">8.000000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="18" UniqueID="{C74A2E94-9553-420D-836B-701EAE31D23E}" Name="Initial transition.18" NameU="Initial transition.18" Master="2">
+					<Text>on_space</Text>
+					<XForm>
+						<PinX Unit="IN_F">3.250000000000000</PinX>
+						<PinY Unit="IN_F">5.656250000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="19" UniqueID="{76EB881D-EA07-422A-9AD7-93A6D0D5007E}" Name="Initial transition.19" NameU="Initial transition.19" Master="2">
+					<Text>on_newline</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.875000000000000</PinX>
+						<PinY Unit="IN_F">5.656250000000000</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

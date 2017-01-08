@@ -1,0 +1,136 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOGEX 0, 0, 181, 92
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "mitry's PELICAN crossing"
+FONT 9, "Fixedsys", 0, 0, 0x0
+BEGIN
+    LTEXT           "top",IDC_STATE,100,14,75,9,SS_SUNKEN
+    LTEXT           "State:",IDC_STATIC,101,4,26,9
+    PUSHBUTTON      "",IDC_PEDESTRIAN_WAITING,51,66,25,15
+    GROUPBOX        "Pedestrians",IDC_STATIC,33,4,60,83,BS_CENTER
+    GROUPBOX        "Vehicles",IDC_STATIC,5,39,170,23,BS_RIGHT
+    CONTROL         105,IDC_RED,"Static",SS_BITMAP | NOT WS_VISIBLE,98,46,33,
+                    12
+    CONTROL         106,IDC_YELLOW,"Static",SS_BITMAP | NOT WS_VISIBLE,98,46,
+                    33,12
+    CONTROL         IDI_ICON1,IDC_GREEN,"Static",SS_BITMAP | NOT WS_VISIBLE,
+                    98,46,33,12
+    CONTROL         1020,IDC_BLANK,"Static",SS_BITMAP | NOT WS_VISIBLE,56,17,
+                    16,18
+    CONTROL         110,IDC_DONT_WALK,"Static",SS_BITMAP | NOT WS_VISIBLE,56,
+                    17,16,18
+    CONTROL         109,IDC_WALK,"Static",SS_BITMAP | NOT WS_VISIBLE,56,17,
+                    16,18
+    CONTROL         112,IDC_STATIC,"Static",SS_BITMAP,5,9,24,25
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 175
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 87
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_RED                 BITMAP                  "res\\red.bmp"
+IDB_YELLOW              BITMAP                  "res\\yellow.bmp"
+IDB_GREEN               BITMAP                  "res\\green.bmp"
+IDB_WALK                BITMAP                  "res\\walk.bmp"
+IDB_DONT_WALK           BITMAP                  "res\\dont_walk.bmp"
+IDB_BLANK               BITMAP                  "res\\blank.bmp"
+IDB_CROSSWALK           BITMAP                  "res\\crosswalk.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "Res\\icon1.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

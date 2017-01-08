@@ -1,0 +1,128 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOGEX 0, 0, 136, 109
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "mitry's Calc"
+FONT 10, "Fixedsys", 0, 0, 0x0
+BEGIN
+    RTEXT           "0",IDC_DISPLAY,29,19,69,14,SS_CENTERIMAGE | SS_SUNKEN | 
+                    WS_BORDER,WS_EX_RIGHT
+    PUSHBUTTON      "0",IDC_0,3,90,36,14
+    PUSHBUTTON      "1",IDC_1,3,74,17,16
+    PUSHBUTTON      "2",IDC_2,22,74,17,16
+    PUSHBUTTON      "3",IDC_3,41,74,17,16
+    PUSHBUTTON      "4",IDC_4,3,56,17,16
+    PUSHBUTTON      "5",IDC_5,22,56,17,16
+    PUSHBUTTON      "6",IDC_6,41,56,17,16
+    PUSHBUTTON      "7",IDC_7,3,38,17,16
+    PUSHBUTTON      "8",IDC_8,22,38,17,16
+    PUSHBUTTON      "9",IDC_9,41,38,17,16
+    PUSHBUTTON      ".",IDC_POINT,41,90,17,14
+    PUSHBUTTON      "=",IDC_EQUALS,61,90,36,14
+    PUSHBUTTON      "+",IDC_PLUS,61,56,17,16
+    PUSHBUTTON      "-",IDC_MINUS,81,56,17,16
+    PUSHBUTTON      "×",IDC_MULT,61,74,17,16
+    PUSHBUTTON      "÷",IDC_DIVIDE,80,74,17,16
+    PUSHBUTTON      "C",IDC_C,61,38,17,16
+    PUSHBUTTON      "CE",IDC_CE,81,38,17,16
+    CONTROL         "",IDC_STATE,"Static",SS_LEFTNOWORDWRAP | SS_SUNKEN | 
+                    SS_WORDELLIPSIS | WS_GROUP,28,4,108,9
+    RTEXT           "State:",IDC_STATIC,3,4,24,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 132
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 106
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "Res\\icon1.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
